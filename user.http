@@ -1,0 +1,36 @@
+POST http://localhost:3000/user/
+Content-Type: application/json
+
+{
+    "userId" : 12,
+    "name" : "lokesh",
+    "email": "lokesh@gamil.com"
+}
+
+###
+
+POST http://localhost:3000/revenue/
+Content-Type: application/json
+
+{
+    "userId" : 12,
+    "amount" : 25000,
+    "dateReceived" : "August"
+}
+###
+
+DELETE http://localhost:3000/revenue/1
+###
+
+DELETE http://localhost:3000/user/7
+###
+
+GET http://localhost:3000/
+###
+
+GET http://localhost:3000//
+###
+
+
+GET http://localhost:3000/testresults/
+###
